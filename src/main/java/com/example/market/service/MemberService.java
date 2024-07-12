@@ -2,10 +2,11 @@ package com.example.market.service;
 
 import com.example.market.domain.entity.Member;
 import com.example.market.domain.repository.MemberRepository;
-import com.example.market.dto.MemberRequest;
-import lombok.NoArgsConstructor;
+import com.example.market.model.MemberRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.*;
 
 @Service
 @RequiredArgsConstructor

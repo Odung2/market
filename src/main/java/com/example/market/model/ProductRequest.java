@@ -1,5 +1,6 @@
-package com.example.market.dto;
+package com.example.market.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
@@ -13,6 +14,6 @@ public class ProductRequest {
     private String name;
 
     @NotNull
-    private long price;
+    private Long price;
 
 }
