@@ -6,7 +6,6 @@ import com.example.market.model.MemberRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
 
 @Service
 @RequiredArgsConstructor
